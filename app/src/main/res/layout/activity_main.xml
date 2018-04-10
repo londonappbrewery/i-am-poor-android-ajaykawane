@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/Charcol"
         app:srcCompat="@drawable/coal" />
 
     <TextView
@@ -25,6 +26,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
-        android:text="I Am Poor!!"
+        android:text="@string/Heading"
         android:textSize="40sp" />
 </RelativeLayout>
